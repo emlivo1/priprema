@@ -32,6 +32,6 @@ public class Kviz implements Serializable {
 
     @Override
     public String toString() {
-        return naziv;
+        return naziv+" : \n"+pitanja;
     }
 }

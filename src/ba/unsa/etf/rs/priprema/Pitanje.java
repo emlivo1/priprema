@@ -41,7 +41,7 @@ public class Pitanje implements Serializable {
 
     @Override
     public String toString() {
-        return tekst;
+        return tekst + ": \n"+odgovori;
     }
 
 }
