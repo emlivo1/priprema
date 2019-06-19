@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_212" class="java.beans.XMLDecoder">
+ <object class="ba.unsa.etf.rs.priprema.Kviz">
+  <void property="naziv">
+   <string>Milijunaš</string>
+  </void>
+  <void property="pitanja">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="ba.unsa.etf.rs.priprema.Pitanje">
+      <void property="indexTacnog">
+       <int>1</int>
+      </void>
+      <void property="odgovori">
+       <object class="java.util.ArrayList">
+        <void method="add">
+         <string>Sarajevo</string>
+        </void>
+        <void method="add">
+         <string>Kingston</string>
+        </void>
+        <void method="add">
+         <string>Zenica</string>
+        </void>
+        <void method="add">
+         <string>Tarčin</string>
+        </void>
+        <void method="add">
+         <string>Banja Luka</string>
+        </void>
+       </object>
+      </void>
+      <void property="tekst">
+       <string>Koji je gčavni grad Jamajke?</string>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
